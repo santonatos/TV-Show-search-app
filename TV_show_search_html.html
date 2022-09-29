@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="TV_show_search_css.css"></link>
+
+</head>
+<body>
+    <div id="appContainer">
+        <figure class="image is-128x128 appContainerItem" id="topImageContainer">
+            <img id="topImage" src="https://media.istockphoto.com/vectors/show-neon-sign-bright-signboard-light-banner-retro-tv-neon-emblem-vector-id1145618696">
+        </figure>
+        <header class="title appContainerItem" id="headerContainer">
+            <h1>TV Show Search</h1>
+        </header>
+        <div class="appContainerItem" id="searchFormContainer">
+            <form class="form" id="searchForm">
+                <input class="input" type="text" placeholder="Enter TV show title..." name="query">
+                <button class="button is-primary">
+                    Search
+                </button>
+            </form>
+        </div>
+        <div class="appContainerItem" id="searchResultsContainer">
+        </div>
+    </div>
+    
+    <script src="TV_show_search_js.js"></script>
+</body>
+</html>
